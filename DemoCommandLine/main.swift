@@ -64,22 +64,24 @@ import Foundation
 //This is the fourth category of cars: a Pickup Truck
 
 //This is the fourth category of cars: a Pickup Truck
-var myPickupTruck = PickupTruck()
-
-//Scenario 1  - Use the setter to work back to calculate the length and width
-myPickupTruck.totalCargoArea = 3000.0 // newValue set to 3000 in PickupTruck Class
-
-println()
-println("The Truck's cargo bed length is: \(myPickupTruck.cargoBedLength) and the cargo bed width is \(myPickupTruck.cargoBedWidth) and the total cargo area is \(myPickupTruck.totalCargoArea)")
-
-//Scenario 2  - Set the length and width of cargo area and use only the getter to calculate the area
-myPickupTruck.cargoBedLength = 50
-myPickupTruck.cargoBedWidth = 60
-
-println()
-println("The Truck's cargo bed length is: \(myPickupTruck.cargoBedLength) and the cargo bed width is \(myPickupTruck.cargoBedWidth) and the total cargo area is \(myPickupTruck.totalCargoArea)")
-
-var myHybridCar = HybridCar()
-println()
-myHybridCar.setupCarDetailsWithName("Leaf", colorOfCar: "Green", horsepowerOfCar: 200, automaticOptionOfCar: false)
+//var myPickupTruck = PickupTruck()
+//
+////Scenario 1  - Use the setter to work back to calculate the length and width
+//myPickupTruck.totalCargoArea = 3000.0 // newValue set to 3000 in PickupTruck Class
+//
+//println()
+//println("The Truck's cargo bed length is: \(myPickupTruck.cargoBedLength) and the cargo bed width is \(myPickupTruck.cargoBedWidth) and the total cargo area is \(myPickupTruck.totalCargoArea)")
+//
+////Scenario 2  - Set the length and width of cargo area and use only the getter to calculate the area
+//myPickupTruck.cargoBedLength = 50
+//myPickupTruck.cargoBedWidth = 60
+//
+//println()
+//println("The Truck's cargo bed length is: \(myPickupTruck.cargoBedLength) and the cargo bed width is \(myPickupTruck.cargoBedWidth) and the total cargo area is \(myPickupTruck.totalCargoArea)")
+//
+//var myHybridCar = HybridCar()
+//println()
+//myHybridCar.setupCarDetailsWithName("Leaf", colorOfCar: "Green", horsepowerOfCar: 200, automaticOptionOfCar: false)
+//This is the first category of cars
+var myRegularCar = CarFactory (nameOfCar :"Regular car", colorOfCar: "Red", horsepowerOfCar: 200, automaticOptionOfCar: true)
 
