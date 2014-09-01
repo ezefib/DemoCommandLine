@@ -24,11 +24,13 @@ class CarFactory{
         horsepower = horsepowerOfCar
         //automaticOption = (automaticOptionOfCar ? "Automatic" : "Manual")
         automaticOption = (automaticOptionOfCar ? "Automatic" : "Manual")
+        
+         println("My \(name) is \(color) and has \(horsepower) horsepower and is \(automaticOption)")
     }
     
+   
     
-    
-    func description() {
-        println("My \(name) is \(color) and has \(horsepower) horsepowers")
-    }
+//    func description() {
+//        println("My \(name) is \(color) and has \(horsepower) horsepower and is \(automaticOption)")
+//    }
 }

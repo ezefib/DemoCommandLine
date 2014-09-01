@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D7853EAC19AC22D7001E5CB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7853EAB19AC22D7001E5CB6 /* main.swift */; };
 		D7853EB319AC2433001E5CB6 /* CarFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7853EB219AC2432001E5CB6 /* CarFactory.swift */; };
+		D7DC4A9B19B426A70001476C /* TurboCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC4A9A19B426A70001476C /* TurboCar.swift */; };
+		D7DC4A9D19B429C10001476C /* HybridCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC4A9C19B429C10001476C /* HybridCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		D7853EA819AC22D7001E5CB6 /* DemoCommandLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoCommandLine; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7853EAB19AC22D7001E5CB6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D7853EB219AC2432001E5CB6 /* CarFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarFactory.swift; sourceTree = "<group>"; };
+		D7DC4A9A19B426A70001476C /* TurboCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurboCar.swift; sourceTree = "<group>"; };
+		D7DC4A9C19B429C10001476C /* HybridCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				D7853EAB19AC22D7001E5CB6 /* main.swift */,
+				D7DC4A9A19B426A70001476C /* TurboCar.swift */,
 				D7853EB219AC2432001E5CB6 /* CarFactory.swift */,
+				D7DC4A9C19B429C10001476C /* HybridCar.swift */,
 			);
 			path = DemoCommandLine;
 			sourceTree = "<group>";
@@ -123,6 +129,8 @@
 			files = (
 				D7853EAC19AC22D7001E5CB6 /* main.swift in Sources */,
 				D7853EB319AC2433001E5CB6 /* CarFactory.swift in Sources */,
+				D7DC4A9D19B429C10001476C /* HybridCar.swift in Sources */,
+				D7DC4A9B19B426A70001476C /* TurboCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +245,7 @@
 				D7853EB119AC22D7001E5CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
