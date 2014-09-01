@@ -11,6 +11,7 @@
 		D7853EB319AC2433001E5CB6 /* CarFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7853EB219AC2432001E5CB6 /* CarFactory.swift */; };
 		D7DC4A9B19B426A70001476C /* TurboCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC4A9A19B426A70001476C /* TurboCar.swift */; };
 		D7DC4A9D19B429C10001476C /* HybridCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC4A9C19B429C10001476C /* HybridCar.swift */; };
+		D7DC4A9F19B430430001476C /* PickupTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC4A9E19B430430001476C /* PickupTruck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		D7853EB219AC2432001E5CB6 /* CarFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarFactory.swift; sourceTree = "<group>"; };
 		D7DC4A9A19B426A70001476C /* TurboCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurboCar.swift; sourceTree = "<group>"; };
 		D7DC4A9C19B429C10001476C /* HybridCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridCar.swift; sourceTree = "<group>"; };
+		D7DC4A9E19B430430001476C /* PickupTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupTruck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				D7853EAB19AC22D7001E5CB6 /* main.swift */,
+				D7DC4A9E19B430430001476C /* PickupTruck.swift */,
 				D7DC4A9A19B426A70001476C /* TurboCar.swift */,
 				D7853EB219AC2432001E5CB6 /* CarFactory.swift */,
 				D7DC4A9C19B429C10001476C /* HybridCar.swift */,
@@ -129,6 +132,7 @@
 			files = (
 				D7853EAC19AC22D7001E5CB6 /* main.swift in Sources */,
 				D7853EB319AC2433001E5CB6 /* CarFactory.swift in Sources */,
+				D7DC4A9F19B430430001476C /* PickupTruck.swift in Sources */,
 				D7DC4A9D19B429C10001476C /* HybridCar.swift in Sources */,
 				D7DC4A9B19B426A70001476C /* TurboCar.swift in Sources */,
 			);

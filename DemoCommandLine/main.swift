@@ -9,7 +9,7 @@
 import Foundation
 
 
-var myFirstCar = CarFactory()
+//var myFirstCar = CarFactory()
 
 //myFirstCar.name = "Mustang"
 //myFirstCar.color = "Red"
@@ -26,7 +26,7 @@ var myFirstCar = CarFactory()
 // $: "My Mustang is Red and has 200 horsepowers and is Automatic"
 
 
-var mySecondCar = CarFactory()
+//var mySecondCar = CarFactory()
 
 //mySecondCar.name = "BMW"
 //mySecondCar.color = "Blue"
@@ -41,22 +41,45 @@ var mySecondCar = CarFactory()
 
 
 //Unit 2 Lesson 3 Assignment 1 - Inheritance
-var myRegularCar = CarFactory(); // instantiate car Instance;
+//var myRegularCar = CarFactory(); // instantiate car Instance;
+//
+//myRegularCar.setupCarDetailsWithName("Xterra", colorOfCar: "Blue", horsepowerOfCar: 300, automaticOptionOfCar: false)
+//
+//var myTurboCar = TurboCar(); // turbo car instaniated
+//
+//println() // new line
+//
+//myTurboCar.setupCarDetailsWithName("Mega Xterra", colorOfCar: "Ocean Blue", horsepowerOfCar: 500, automaticOptionOfCar: true)
+//
+//println(myTurboCar.turboCarSpecs("B", aSpoiler: false))
+//
+//var myHybridCar = HybridCar()
+//
+//println()
+//myHybridCar.setupCarDetailsWithName("Leaf", colorOfCar: "Green", horsepowerOfCar: 200, automaticOptionOfCar: false)
 
-myRegularCar.setupCarDetailsWithName("Xterra", colorOfCar: "Blue", horsepowerOfCar: 300, automaticOptionOfCar: false)
 
-var myTurboCar = TurboCar(); // turbo car instaniated
+//Unit 2 Lesson 3 Assignment 2 - Properties and Initalizers
 
-println() // new line
+//This is the fourth category of cars: a Pickup Truck
 
-myTurboCar.setupCarDetailsWithName("Mega Xterra", colorOfCar: "Ocean Blue", horsepowerOfCar: 500, automaticOptionOfCar: true)
+//This is the fourth category of cars: a Pickup Truck
+var myPickupTruck = PickupTruck()
 
-println(myTurboCar.turboCarSpecs("B", aSpoiler: false))
-
-var myHybridCar = HybridCar()
+//Scenario 1  - Use the setter to work back to calculate the length and width
+myPickupTruck.totalCargoArea = 3000.0 // newValue set to 3000 in PickupTruck Class
 
 println()
+println("The Truck's cargo bed length is: \(myPickupTruck.cargoBedLength) and the cargo bed width is \(myPickupTruck.cargoBedWidth) and the total cargo area is \(myPickupTruck.totalCargoArea)")
+
+//Scenario 2  - Set the length and width of cargo area and use only the getter to calculate the area
+myPickupTruck.cargoBedLength = 50
+myPickupTruck.cargoBedWidth = 60
+
+println()
+println("The Truck's cargo bed length is: \(myPickupTruck.cargoBedLength) and the cargo bed width is \(myPickupTruck.cargoBedWidth) and the total cargo area is \(myPickupTruck.totalCargoArea)")
+
+var myHybridCar = HybridCar()
+println()
 myHybridCar.setupCarDetailsWithName("Leaf", colorOfCar: "Green", horsepowerOfCar: 200, automaticOptionOfCar: false)
-
-
 
