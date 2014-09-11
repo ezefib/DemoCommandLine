@@ -29,15 +29,15 @@ class CarFactory{
     }
     
     // Unit 2 Lesson 3 Assignment 2
-    init(nameOfCar: String, colorOfCar: String, horsepowerOfCar: Int, automaticOptionOfCar: Bool) {
-        name = nameOfCar
-        color = colorOfCar
-        horsepower = horsepowerOfCar
-        //automaticOption = (automaticOptionOfCar ? "Automatic" : "Manual")
-        automaticOption = (automaticOptionOfCar ? "Automatic" : "Manual")
-        
-        println("My \(name) is \(color) and has \(horsepower) horsepower and is \(automaticOption)")
-    }
+//    init(nameOfCar: String, colorOfCar: String, horsepowerOfCar: Int, automaticOptionOfCar: Bool) {
+//        name = nameOfCar
+//        color = colorOfCar
+//        horsepower = horsepowerOfCar
+//        //automaticOption = (automaticOptionOfCar ? "Automatic" : "Manual")
+//        automaticOption = (automaticOptionOfCar ? "Automatic" : "Manual")
+//        
+//        println("My \(name) is \(color) and has \(horsepower) horsepower and is \(automaticOption)")
+//    }
     
     
    

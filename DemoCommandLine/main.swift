@@ -10,30 +10,35 @@ import Foundation
 
 
 //var myFirstCar = CarFactory()
-
+//
 //myFirstCar.name = "Mustang"
 //myFirstCar.color = "Red"
 //myFirstCar.horsepower = 200
 //myFirstCar.automaticOption = true
 
-//myFirstCar.setupCarDetailsWithName("Mustang", colorOfCar: "Red", horsepowerOfCar: 200, automaticOptionOfCar: true)
+//myFirstCar.setupCarDetailsWithName(n "Mustang", colorOfCar: "Red", horsepowerOfCar: 200, automaticOptionOfCar: true)
 
 //Unit 2 Lesson 1
 //println("My \(myFirstCar.name) is \(myFirstCar.color) and has \(myFirstCar.horsepower) horsepowers")
 // $: "My Mustang is Red and has 200 horsepowers"
 
 //myFirstCar.description()
-// $: "My Mustang is Red and has 200 horsepowers and is Automatic"
+//$: "My Mustang is Red and has 200 horsepowers and is Automatic"
 
 
-//var mySecondCar = CarFactory()
+var mySecondCar = CarFactory()
 
-//mySecondCar.name = "BMW"
-//mySecondCar.color = "Blue"
-//mySecondCar.horsepower = 300
-//mySecondCar.automaticOption = false
+mySecondCar.name = "BMW"
+mySecondCar.color = "Blue"
+mySecondCar.horsepower = 300
+mySecondCar.automaticOption = "Automatic"
 
-//mySecondCar.setupCarDetailsWithName("BMW", colorOfCar: "Blue", horsepowerOfCar: 300, automaticOptionOfCar: false)
+mySecondCar.setupCarDetailsWithName("BMW", colorOfCar: "Blue", horsepowerOfCar: 300, automaticOptionOfCar: false)
+
+
+var myOtherCar = CarFactory()
+
+myOtherCar.setupCarDetailsWithName("Xterra", colorOfCar: "Blue", horsepowerOfCar: 300, automaticOptionOfCar: false)
 
 //println("My \(mySecondCar.name) is \(mySecondCar.color) and has \(mySecondCar.horsepower) horsepowers")
 // $: "My BMW is Blue and has 300 horsepowers"
@@ -64,7 +69,9 @@ import Foundation
 //This is the fourth category of cars: a Pickup Truck
 
 //This is the fourth category of cars: a Pickup Truck
-//var myPickupTruck = PickupTruck()
+
+////(nameOfCar: String, colorOfCar: String, horsepowerOfCar: Int, automaticOptionOfCar: Bool
+//var myPickupTruck = PickupTruck(nameOfCar: <#String#>, colorOfCar: <#String#>, horsepowerOfCar: <#Int#>, automaticOptionOfCar: <#Bool#>))
 //
 ////Scenario 1  - Use the setter to work back to calculate the length and width
 //myPickupTruck.totalCargoArea = 3000.0 // newValue set to 3000 in PickupTruck Class
@@ -82,6 +89,6 @@ import Foundation
 //var myHybridCar = HybridCar()
 //println()
 //myHybridCar.setupCarDetailsWithName("Leaf", colorOfCar: "Green", horsepowerOfCar: 200, automaticOptionOfCar: false)
-//This is the first category of cars
-var myRegularCar = CarFactory (nameOfCar :"Regular car", colorOfCar: "Red", horsepowerOfCar: 200, automaticOptionOfCar: true)
+////This is the first category of cars
+//var myRegularCar = CarFactory (nameOfCar :"Regular car", colorOfCar: "Red", horsepowerOfCar: 200, automaticOptionOfCar: true)
 
